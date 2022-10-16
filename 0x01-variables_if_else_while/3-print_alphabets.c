@@ -1,35 +1,20 @@
 #include <stdio.h>
 /**
- *main - Entry point
- *Return: 0
- */
+ * main - Entry point
+ * Return : 0
+ **/
 int main(void)
 {
-	int m, i, j;
+	char i;
+	char j;
 
-	for (i = '0'; i <= '9'; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		for (j = '0'; j <= '9'; j++)
-		{
-			for (m = '0'; m <= '9'; m++)
-			{
-				if (i < j && j < m)
-				{
-					putchar(i);
-					putchar(j);
-					putchar(m);
-					if (i == '7' && j == '8' && m == '9')
-					{
-						break;
-					}
-					else
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
-			}
-		}
+		putchar(i);
+	}
+	for (j = 'A'; j <= 'Z'; j++)
+	{
+		putchar(j);
 	}
 	putchar('\n');
 	return (0);
