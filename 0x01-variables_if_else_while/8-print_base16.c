@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- *main - program entry point.
- *Description: prints all the numbers of base 16 in lowercase.
+ *main - Entry point
+ *Description: prints all the numbers of base in lowercase.
  *
  *Return : 0 (success)
  */
-int main(void);
+int main(void)
 {
 	int i;
 	char hexvalues[] = "0123456789abcdef";
