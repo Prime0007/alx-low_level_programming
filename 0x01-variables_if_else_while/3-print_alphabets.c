@@ -1,7 +1,9 @@
 #include<stdio.h>
 /**
  * main - Entry point.
- * Return : 0 (success), non zero if error.
+ * Description: prints the alphabet in lowercase, and then in uppercase.
+ *
+ * Return: 0 (success)
  **/
 int main(void)
 {
