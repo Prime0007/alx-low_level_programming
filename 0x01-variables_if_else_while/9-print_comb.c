@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- *main - Entry point.
- *Description: This is task Nine.
+ *main - Entry point
+ *Description: This is task no nine.
  *
- *Return : 0 (success).
+ *Return: 0 (success)
  */
 int main(void)
 {
