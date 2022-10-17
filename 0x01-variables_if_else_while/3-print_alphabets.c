@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main - Entry point
- * Return : 0 no error, none zero if error.
+ * Return : 0 (success)
  **/
-int main(void)
+int main(void);
 {
 	char i;
 	char j;
