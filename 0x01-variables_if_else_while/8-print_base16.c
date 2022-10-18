@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  *main - Entry point.
- *Description: prints all the numbers of base in lowercase.
+ *Description: This is for task eight.
  *
- *Return : 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
