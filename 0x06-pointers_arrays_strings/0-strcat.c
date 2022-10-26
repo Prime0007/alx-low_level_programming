@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - This concatennates two strings
+ * _strcat - concatennates two strings
  * @dest: copy to
  * @src: copy from
  * Return: printer to dest
@@ -23,6 +23,6 @@ char *_strcat(char *dest, char *src)
 		i++;
 		j++;
 	}
-	dest[i] * '\0';
+	dest[i] = '\0';
 	return (dest);
 }
