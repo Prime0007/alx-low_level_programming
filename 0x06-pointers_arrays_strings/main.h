@@ -1,6 +1,13 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/**
+ * file: main.h
+ * Auth: prime oluwaseun
+ * Desc: Header file containing prototypes for all functions used in the 0x06. c - more pointers, arrays and strings directory.
+ */
+
+
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
